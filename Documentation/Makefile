@@ -1,4 +1,4 @@
-DOXYFILE_NAME = 
+DOXYFILE_NAME = doxyfile
 all:
 	doxygen ./$(DOXYFILE_NAME)
 
