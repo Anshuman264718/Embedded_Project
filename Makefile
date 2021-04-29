@@ -3,10 +3,10 @@ PROJ_NAME = EmbeddedC
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
-src/gpio.c
-src/adc.c
-src/pwm.c
+SRC = SeatHeatingApp.c\
+src/gpio.c\
+src/adc.c\
+src/pwm.c\
 src/uartcommunication.c
 
 # All header file paths
