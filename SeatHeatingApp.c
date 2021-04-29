@@ -11,7 +11,6 @@ int SeatHeatingApp(void)
 {
    gpio(); /**function call for setting ports*/
    InitADC(); /**function call for initializing ADC*/
-   uint16_t temp; /**temp value of 16 bit to store channel value called by ReadADC function*/
    pwm(); /**function call for executing PWM*/
 
     while(1)
@@ -27,7 +26,7 @@ int SeatHeatingApp(void)
             _delay_ms(200);
         }
 
-        temp=ReadADC(0); /**calling channel 0*/
+       uint16_t temp=ReadADC(0); /**calling channel 0*/
         _delay_ms(200);
 
         /** the function gives ADC values as input for PWM*/
