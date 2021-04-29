@@ -6,6 +6,8 @@ BUILD_DIR = Build
 SRC = main.c\
 src/gpio.c
 src/adc.c
+src/pwm.c
+src/uartcommunication.c
 
 # All header file paths
 INC = -I inc
